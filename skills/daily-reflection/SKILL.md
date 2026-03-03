@@ -55,6 +55,10 @@ git push origin master
 - **复盘**：今日教训与配置变更
 - **建议**：推荐的 Skill 或脚本草稿（如有）
 
+**重要**：复盘完成后，必须把简报内容发送到 Telegram：
+- 使用 `openclaw message send --channel telegram --target <用户ID> --message "<复盘内容>"`
+- 用户ID可在 `channels.telegram.allowFrom` 中找到，或查看日志
+
 ---
 
 ## 红线（必须遵守）
