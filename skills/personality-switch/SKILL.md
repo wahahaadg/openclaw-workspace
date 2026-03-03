@@ -19,6 +19,13 @@ metadata: { "openclaw": { "emoji": "🎭", "requires": {} } }
 | 学习概念、原理、怎么入门 | mentor |
 | 技术文章、教程、写博客 | blogger |
 | 有趣的解释、科普、比喻 | humor-mode |
+| 运维/DevOps/SRE 相关 | 自动创建：devops-engineer |
+| 测试/QA/自动化相关 | 自动创建：qa-engineer |
+| 产品/需求/用户体验 | 自动创建：product-manager |
+| AI/ML/大模型相关 | 自动创建：ai-researcher |
+| 前端/可视化/UI | 自动创建：frontend-expert |
+| 数据库/DBA | 自动创建：dba-expert |
+| 安全/渗透测试 | 自动创建：security-expert |
 | 其他/通用问题 | default（无人格模式） |
 
 ## 触发条件
@@ -100,6 +107,14 @@ metadata: { "openclaw": { "emoji": "🎭", "requires": {} } }
 1. 创建 `skills/personality/xxx.json` 配置文件
 2. 自动添加到可用人格列表
 3. 立即可以使用
+
+### 自动创建新人格
+当问题专业性很强、对某一职业适配性很高时（如运维、测试、产品经理、AI 研究等），我可以**自行创建**新人格：
+
+1. 分析问题的专业领域
+2. 创建对应的职业人格配置文件
+3. 立即使用该人格回答
+4. 记录到人格列表中
 
 ## 切换流程
 
